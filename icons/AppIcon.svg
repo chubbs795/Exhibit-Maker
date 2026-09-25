@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F4A7A"/>
+      <stop offset="1" stop-color="#16233F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6C54A"/>
+      <stop offset="1" stop-color="#E0A21E"/>
+    </linearGradient>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <!-- back page -->
+  <rect x="330" y="215" width="380" height="500" rx="18" fill="#FFFFFF" fill-opacity="0.35" transform="rotate(-6 520 465)"/>
+  <!-- front page -->
+  <rect x="310" y="250" width="400" height="520" rx="20" fill="#FFFFFF"/>
+  <g fill="#C9D2E3">
+    <rect x="360" y="310" width="240" height="20" rx="10"/>
+    <rect x="360" y="360" width="300" height="16" rx="8"/>
+    <rect x="360" y="400" width="300" height="16" rx="8"/>
+    <rect x="360" y="440" width="260" height="16" rx="8"/>
+    <rect x="360" y="480" width="300" height="16" rx="8"/>
+    <rect x="360" y="520" width="200" height="16" rx="8"/>
+  </g>
+  <!-- Bates number bar -->
+  <rect x="520" y="722" width="150" height="18" rx="4" fill="#2F4A7A"/>
+  <!-- exhibit sticker -->
+  <g transform="rotate(-8 700 600)">
+    <rect x="585" y="545" width="250" height="120" rx="18" fill="url(#gold)" stroke="#FFFFFF" stroke-width="10"/>
+    <text x="710" y="630" font-family="DejaVu Sans, Helvetica, Arial" font-weight="bold" font-size="68" fill="#16233F" text-anchor="middle">EX 1</text>
+  </g>
+</svg>
